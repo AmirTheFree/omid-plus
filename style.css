@@ -1,0 +1,1280 @@
+/* In the name of Allah */
+
+@charset "utf-8";
+/* CSS Document - v3.5.0 */
+
+html {
+	direction: ltr;
+}
+
+@font-face {
+	font-family: 'yekan';
+	src: url('//cdn.bayan.ir/blog/templates/shared/fonts/BYekan.woff?download') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+body {
+	font-family: "tahoma", "arial", "Times New Roman", Times, Arial, serif;
+	font-size: 11px;
+	margin: 0;
+	padding: 0;
+	line-height: 1.9em;
+	background: #f3f3f3;
+	color: #6b828e;
+}
+
+p {
+	margin-bottom: 0.5em;
+}
+
+pre {
+	direction: ltr;
+	background-color: #FAFAEE;
+	border: 1px solid #DADADA;
+	margin: 1em;
+	overflow-x: auto;
+	overflow-y: hidden;
+	padding: 2px;
+}
+
+.clear {
+	clear: both;
+}
+
+h1, h2, h3 {
+	font-family: "yekan", "tahoma", "arial", "Times New Roman", Times, Arial, serif;
+	font-weight: normal;
+}
+
+img {
+	border: none;
+	border-width: 0;
+}
+
+a {
+	color: #1e1e14;
+	cursor: pointer;
+	text-decoration: none;
+	-moz-transition-duration: .2s;
+	-webkit-transition-duration: .2s;
+	-o-transition-duration: .2s;
+}
+
+a:hover {
+	color: #407694;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+a:active {
+	outline: hidden;
+}
+
+/*-- Header --*/
+
+.header {
+	direction: rtl;
+	height: 105px;
+	background: #004850;
+	border-top: 6px solid #00323c;
+}
+
+.head-right a {
+	color: #fff;
+	padding-right: 25px;
+}
+
+.head-right a:hover {
+	color: #f7d500;
+}
+
+.head-right h1 {
+	position: relative;
+	padding: 10px 35px 10px 0;
+	font-size: 28px;
+	line-height: 1.7em;
+	background: url(//cdn.bayan.ir/blog/templates/52722/head-icon.png) no-repeat center right;
+}
+
+.head-left h2 {
+	margin: 0;
+	font-size: 20px;
+	cursor: default;
+	color: #a3cfd4;
+	text-align: center;
+}
+
+.head-wrp {
+	position: relative;
+	width: 90%;
+	height: 100%;
+	margin: auto;
+}
+
+.head-right {
+	position: absolute;
+	right: 0;
+	text-align: right;
+}
+
+.head-left {
+	font-family: "yekan", "tahoma", "arial", "Times New Roman", Times, Arial, serif;
+	font-size: 14px;
+	position: absolute;
+	top: 38px;
+	left: 0;
+	text-align: left;
+}
+
+.main-menu {
+	height: 41px;
+	background: #f7d500;
+	font-family: "yekan", "tahoma", "arial", "Times New Roman", Times, Arial, serif;
+	font-size: 15px;
+}
+
+.main-menu ul {
+	margin: 0 auto;
+	padding: 0;
+	width: 75%;
+	direction: rtl;
+	list-style: none;
+}
+
+.main-menu ul li {
+	float: right;
+	margin-left: 5px;
+}
+
+.main-menu ul li a {
+	color: #1e1e14;
+	display: block;
+	padding: 10px 10px 11px;
+}
+
+.main-menu ul li a:hover {
+	color: #1e1e14;
+	background: #efbd00;
+}
+
+.main-menu ul li.selected a {
+	background: #efbd00;
+}
+
+.readmore {
+	font-family: "yekan", "tahoma", "arial", "Times New Roman", Times, Arial, serif;
+	background: #ff4132;
+	padding: 0 17px 2px;
+	color: #fff;
+	font-size: 13px;
+}
+
+.readmore:hover {
+	color: #fff;
+	background: #ff6256;
+}
+
+.readmore:active {
+	background: #ef2f20;
+}
+
+.middle-posts .inline-readmore {
+	color: #ff4132;
+	padding-right: 7px;
+}
+
+.head-post .readmore {
+	padding: 2px 35px 5px;
+	font-size: 15px;
+}
+
+.middle-posts .inline-readmore {
+	color: #0575a5;
+	padding-right: 7px;
+}
+
+.middle-posts .inline-readmore:hover {
+	color: #efbd00;
+	padding-right: 7px;
+}
+
+.head-post .readmore {
+	padding: 2px 35px 5px;
+	font-size: 15px;
+}
+
+.middle-posts {
+	background: #fff;
+	padding: 1px 0;
+	border-bottom: 1px solid #ddd;
+}
+
+.middle-posts-wrp {
+	direction: rtl;
+	width: 75%;
+	margin: 25px auto;
+}
+
+.middle-posts h2 {
+	margin: 0 0 10px;
+	font-size: 18px;
+}
+
+.middle-posts .post-content, .latest-posts .post-content {
+	font-size: 14px;
+	text-align: justify;
+	line-height: 1.8em;
+	margin: 0;
+}
+
+.middle-posts ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.middle-posts ul li {
+	font-family: "yekan", "tahoma", "arial", "Times New Roman", Times, Arial, serif;
+	float: right;
+	width: 33%;
+	margin-left: 30px;
+}
+
+.middle-posts ul li:last-child {
+	margin-left: 0;
+}
+
+.middle-posts ul:after {
+	display: block;
+	content: ' ';
+	clear: both;
+}
+
+/*-- Pagination --*/
+
+.pagination-box {
+	margin: auto;
+}
+
+.pagination {
+	font-family: "yekan", "tahoma", "arial", "Times New Roman", Times, Arial, serif;
+	cursor: default;
+	text-align: center;
+	margin: 40px auto;
+	font-size: 14px;
+	padding: 0;
+	float: none;
+}
+
+.pagination .left {
+	margin-left: -3px;
+}
+
+.pagination a {
+	padding: 0 15px 4px;
+	margin-left: 3px;
+	cursor: pointer;
+	color: #465e6a;
+	background: #cfe0e2;
+	float: none;
+}
+
+.pagination a:hover {
+	color: #465e6a;
+	background: rgba(8, 146, 205, 0.1);
+}
+
+.pagination a.current {
+	color: #465e6a;
+	background: #aacdd1;
+}
+
+.pagination .spacer {
+	float: right;
+	padding: 1px 8px;
+	color: #999;
+}
+
+.pagination .pagesList {
+	display: inline-block;
+}
+
+/*-- Content --*/
+
+.content-wrp {
+	direction: rtl;
+	width: 75%;
+	margin: 30px auto 20px;
+	position: relative;
+}
+
+.block-content {
+	width: 65%;
+	float: right;
+}
+
+.block-content-view {
+	float: right;
+	width: 100%;
+}
+
+.block-content .messages {
+	cursor: default;
+	margin-bottom: 15px;
+	border: 1px solid #ddd;
+	background: #fcfcfc;
+}
+
+.block-content .messages .messages-content {
+	padding: 5px 15px;
+	color: #aaa;
+}
+
+.block-content .messages .messages-content h2 {
+	color: #888;
+	font: 21px "yekan", "Times New Roman", Times, Arial, serif;
+	text-align: center;
+	cursor: default;
+	margin: 0 0 7px;
+}
+
+.block-content .messages .messages-content h2 a.comment_count {
+	color: #aaa;
+}
+
+.block-content .messages .messages-content h2 a.comment_count:hover {
+	color: #A4CACF;
+	cursor: pointer;
+}
+
+/*-- Content-post --*/
+
+.block-content .post {
+	position: relative;
+	padding: 0;
+	margin-bottom: 30px;
+	font-family: "yekan", "tahoma", "arial", "Times New Roman", Times, Arial, serif;
+	border: 1px solid #ddd;
+	background: #fff;
+}
+
+.post-image {
+	overflow: hidden;
+}
+
+.post-image img {
+	width: 100%;
+	height: auto;
+	display: block;
+}
+
+.post-image a img {
+	-ms-transition: all .2s ease-in-out;
+	-webkit-transition: all .2s ease-in-out;
+	transition: all .2s ease-in-out;
+}
+
+.post-image a:hover img {
+	-ms-transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+}
+
+.block-content .post .post-title {
+	padding: 15px 20px 5px;
+}
+
+.block-content .post h2 {
+	margin: 0;
+}
+
+.block-content .post h2 a {
+	line-height: 1.7em;
+	font-size: 21px;
+	color: #254252;
+}
+
+.block-content .post h2 a:hover {
+	color: #407694;
+}
+
+.post-content {
+	color: #000000;
+	margin-left: 20px;
+	margin-right: 20px;
+	text-align: justify;
+	font: 14px "yekan", "tahoma", "arial", "Times New Roman", Times, Arial, serif;
+	word-break: break-word;
+}
+
+.post-content a {
+	color: #0575a5;
+}
+
+.post-content a:hover {
+	color: #0575a5;
+}
+
+.post-content ul li {
+	margin-right: 5px;
+	line-height: 1.9em;
+}
+
+.post-content img {
+	max-width: 98%;
+	height: auto;
+}
+
+.post-readmore {
+	margin: 0px 20px 25px;
+}
+
+.post-readmore a {
+	font-size: 15px;
+	line-height: 1em;
+	padding: 0 15px 2px;
+	color: #fff;
+	background: #ff4132;
+}
+
+.post-readmore a:hover {
+	color: #fff;
+	background: #ff6256;
+}
+
+.post-readmore a:active {
+	color: #fff;
+	background: #ef2f20;
+}
+
+/*-- Content-post-details --*/
+
+.post-details {
+	font: 14px "yekan", "tahoma", "arial", "Times New Roman", Times, Arial, serif;
+	color: #888;
+	cursor: default;
+	position: relative;
+}
+
+.post-details a {
+	color: #888 !important;
+}
+
+.post-details a:hover {
+	color: #555 !important;
+}
+
+.post-details.over {
+	position: absolute;
+	z-index: 9;
+}
+
+.post-details.over .post-details-date {
+	margin: 0 0 2px;
+	padding: 1px 10px 5px;
+	background: rgba(0, 0, 0, 0.5);
+	color: rgba(255, 255, 255, 0.9);
+}
+
+.post-details.over .post-details-author {
+	margin: 0 0 2px;
+	padding: 1px 10px 5px;
+	background: rgba(0, 0, 0, 0.5);
+	color: rgba(255, 255, 255, 0.9);
+}
+
+.post-details.bottom {
+	margin-top: 15px;
+	padding: 5px 10px;
+	border-top: 1px solid rgba(172, 186, 192, 0.2);
+	background: #fcfcfc;
+}
+
+.post-details.bottom.nobg {
+	background: none;
+}
+
+.post-details.custom {
+	margin-top: 10px;
+	padding: 10px 20px;
+}
+
+.post-details-right {}
+
+.post-details-left {
+	float: left;
+}
+
+.post-details-date {
+	border-left: 1px solid rgba(0, 0, 0, 0.1);
+	padding: 0 10px;
+	margin-left: 3px;
+}
+
+.post-details-date.none {
+	padding: 0;
+	margin: 10px 0 0;
+	background: none;
+	border-left: 0;
+	display: block;
+}
+
+.post-details-comment {
+	border-left: 1px solid rgba(0, 0, 0, 0.1);
+	padding: 0 10px;
+	margin-left: 1px;
+}
+
+img.rateimg, img.rateup, img.ratedn {
+	background: url(//cdn.bayan.ir/blog/templates/52722/pd_ico_rate.png) no-repeat center left;
+	width: 16px;
+	height: 28px;
+	vertical-align: top;
+}
+
+.rate-down img.rateimg, img.ratedn {
+	background-position: 0 -17px;
+}
+
+.rate-up img.rateimg, img.rateup {
+	background-position: 0 3px;
+}
+
+.rate-up {
+	margin: 0 10px;
+}
+
+/*-- keywords --*/
+
+.post-details .post-details-tags {
+	cursor: default;
+}
+
+.post-details .post-details-tags h3 {
+	margin: 0;
+	display: inline-block;
+	font: 14px/1.3em "yekan", "tahoma", "arial", "Times New Roman", Helvetica;
+	color: #888;
+	background: #f9f9f9;
+}
+
+.post-details .post-details-tags h3 a {
+	color: #888;
+	padding: 1px 7px 4px;
+	border: #ddd 1px solid;
+	display: inline-block;
+}
+
+.post-details .post-details-tags h3 a:hover {
+	color: #fff !important;
+	border: #A4CACF 1px solid;
+	background: #A4CACF;
+}
+
+.post-details .post-details-tags h3:first-child {}
+
+.post-details .post-details-tags h3:last-child {
+	margin: 0px;
+}
+
+/*-- Post Comments --*/
+
+.post-comments {
+	font: 14px "yekan", "tahoma", "arial", "Times New Roman", Times, Arial, serif;
+	margin-bottom: 15px;
+}
+
+.post-comment {
+	margin-bottom: 5px;
+	background: #f3f3f3;
+	border: 1px solid rgba(172, 186, 192, 0.5);
+}
+
+.comment-details {
+	background: #f3f3f3;
+	padding: 0;
+	cursor: default;
+}
+
+.comment-details a {
+	color: #A4CACF;
+	cursor: pointer;
+	vertical-align: bottom;
+	margin-right: 5px;
+	-moz-transition-duration: .0s;
+	-webkit-transition-duration: .0s;
+	-o-transition-duration: .0s;
+	-khtml-transition-duration: .0s;
+}
+
+.comment-details-left {
+	padding: 4px 0 0 5px;
+	float: left;
+}
+
+.comment-details-right {}
+
+.comment-avatar img {
+	width: 34px;
+	height: auto;
+}
+
+.comment-name {
+	color: #888;
+	cursor: default;
+	padding: 0 5px;
+}
+
+.comment-body {
+	padding: 10px;
+}
+
+.comment-body-content {
+	color: #555;
+}
+
+.comment-date {
+	display: inline-block;
+	color: rgba(255, 255, 255, 0.6);
+}
+
+.comment-website {
+	background: url(//cdn.bayan.ir/blog/templates/52722/details_ico_cmt.png) center -102px no-repeat;
+	width: 18px;
+	height: 23px;
+	display: inline-block;
+}
+
+.comment-website:hover {
+	background-position: center -125px;
+	cursor: pointer;
+}
+
+.comment-email {
+	background: url(//cdn.bayan.ir/blog/templates/52722/details_ico_cmt.png) center -60px no-repeat;
+	width: 18px;
+	height: 23px;
+	display: inline-block;
+}
+
+.comment-email:hover {
+	background-position: center -79px;
+	cursor: pointer;
+}
+
+/*-- Reply --*/
+
+.comment-reply {
+	margin-bottom: 5px;
+	border: 1px solid #6ec2e5;
+	background-color: #e5f7ff;
+	color: rgba(0, 0, 0, 0.7);
+}
+
+.comment-reply-details {
+	padding: 5px 10px 0;
+}
+
+.comment-reply-date {
+	float: left;
+	color: #31ace0;
+	cursor: default;
+}
+
+.comment-reply-name {
+	color: #31ace0;
+	cursor: default;
+}
+
+.comment-reply-body {
+	color: #31ace0;
+	padding: 10px;
+}
+
+/*-- add Comment --*/
+
+.comment-add-form {
+	color: #aaa;
+	padding: 10px;
+	margin-bottom: 15px;
+	border: 1px solid #ddd;
+	background: #fcfcfc;
+	border-top: 1px solid #A4CACF;
+	font: 14px "yekan", "tahoma", "arial", "Times New Roman", Helvetica;
+}
+
+.comment-add-form input.sendbutton {
+	color: #A4CACF;
+	border: #A4CACF 1px solid;
+	background: #f8f8f8;
+	padding: 0 30px 2px;
+	cursor: pointer;
+	font: 15px "yekan", "tahoma", "arial", "Times New Roman", Helvetica;
+	-webkit-appearance: button;
+}
+
+.comment-add-form input.sendbutton:hover {
+	color: #fff;
+	border: #A4CACF 1px solid;
+	background: #A4CACF;
+}
+
+.comment-add-form iframe {
+	background: #FFF;
+}
+
+.block-content .pagination {
+	margin: 40px auto 20px;
+}
+
+/*-- Sidebar --*/
+
+.block-sidebar {
+	float: left;
+	width: 30%;
+}
+
+.block-sidebar .sidebox {
+	margin-bottom: 30px;
+	position: relative;
+}
+
+.sidebox .sidebox-title {
+	position: absolute;
+	top: -5px;
+	left: -5px;
+	display: inline-block;
+	font: 17px/1.2em "yekan", "tahoma", "arial", "Times New Roman", Helvetica;
+	background: #f7d500;
+	color: #1e1e14;
+	padding: 8px 0 10px;
+	text-align: center;
+	cursor: default;
+	font-weight: normal;
+	margin: 0;
+	width: 155px;
+	z-index: 5;
+}
+
+.sidebox .sidebox-content {
+	font: 14px "yekan", "tahoma", "arial", "Times New Roman", Helvetica;
+	direction: rtl;
+	border: 1px solid #ddd;
+	background: #fff;
+	padding: 38px 10px 10px;
+}
+
+.sidebox.menu .sidebox-title {
+	background: #e94620;
+}
+
+.sidebox.menu .sidebox-content ul li:hover {
+	background: rgba(233, 70, 32, 0.2);
+}
+
+.sidebox.menu .sidebox-content ul li.selected {
+	background: rgba(233, 70, 32, 0.2);
+	border-bottom: 1px solid rgba(233, 70, 32, 0.2);
+}
+
+.sidebox.menu .sidebox-content ul li a {
+	color: #e94620;
+}
+
+.sidebox.menu .sidebox-content ul li.selected a {
+	color: #e94620;
+}
+
+.sidebox.blank .sidebox-content {
+	padding-top: 40px;
+	border: 1px solid #ddd;
+	color: #000000;
+}
+
+.sidebox.blank .sidebox-content h4 {
+	padding: 8px;
+	color: #000000;
+	margin: 0;
+	font: normal 14px "yekan", "tahoma", "arial", "Times New Roman", Helvetica;
+	text-align: right;
+}
+
+.sidebox.blank .sidebox-content .blog-image {
+	text-align: center;
+}
+
+.sidebox.blank .sidebox-content img {
+	text-align: center;
+	max-width: 95%;
+	height: auto;
+}
+
+* html .sidebox.blank .sidebox-content img {
+	width: 200px;
+	height: auto;
+}
+
+/*-post list-*/
+
+.post-content-right {
+	float: right;
+	width: 82%;
+}
+
+.post-image-right {
+	overflow: hidden;
+	width: 140px;
+	/*height: 110px;*/
+	border: 1px solid #ddd;
+	float: left;
+	margin: 20px 16px 5px 0;
+}
+
+.post-image-right img {
+	width: 100%;
+	height: auto;
+}
+
+.post-content-left {
+	float: left;
+	width: 15%;
+	border-right: 1px solid #ddd;
+	text-align: center;
+	margin: 20px 0 5px;
+	padding: 0w 15px;
+}
+
+.post-content-left .post-readmore-left a {
+	display: block;
+	width: 39px;
+	height: 39px;
+	background: #f7d500 url(//cdn.bayan.ir/blog/templates/52722/readmore.png) no-repeat center;
+	margin: 43px auto 0;
+}
+
+.post-content-left .post-readmore-left a:hover {
+	color: #fff;
+	background-color: #efbd00;
+}
+
+.post-content-left .post-readmore-left a:active {
+	background-color: #efbd00;
+}
+
+.post-date-left {
+	cursor: default;
+}
+
+.post-date-left-day {
+	font-size: 40px;
+	color: #215a62;
+	padding: 5px 0 15px;
+}
+
+.post-date-left-month {
+	font-size: 18px;
+	color: #215a62;
+}
+
+/*- sidebar post-list -*/
+
+.sidebox-content ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.sidebox-content ul li {
+	padding: 6px 1px;
+	border-bottom: 1px solid #f1f1f1;
+}
+
+.sidebox-content ul li:last-child {
+	border-bottom: none;
+}
+
+.sidebox-content ul li a {
+	background: url(//cdn.bayan.ir/blog/templates/52722/sidebar-bullet.png) no-repeat right 12px;
+	padding-right: 10px;
+	color: #254252;
+	font: normal 14px "yekan", "tahoma", "arial", "Times New Roman", Helvetica;
+}
+
+.sidebox-content ul.menu li a {
+	background: url(//cdn.bayan.ir/blog/templates/52722/sidebar-bullet2.png) no-repeat right 12px;
+}
+
+.sidebox-content ul li a:hover {
+	color: #0575a5;
+}
+
+.sidebox-content ul li:hover {
+	background: rgba(8, 146, 205, 0.1);
+	-moz-transition-duration: .2s;
+	-webkit-transition-duration: .2s;
+	-o-transition-duration: .2s;
+}
+
+.sidebox-content ul li.selected {
+	padding: 5px 2px;
+	background: rgba(8, 146, 205, 0.2);
+	border-bottom: 1px solid rgba(8, 146, 205, 0.2);
+}
+
+.sidebox-content ul li.selected a {
+	color: #0575a5;
+}
+
+.sidebox-content .post-list-date, .sidebox-content .post-list-count {
+	color: #aaa;
+	cursor: default;
+}
+
+.sidebox-content .post-list-count {
+	padding-right: 5px;
+}
+
+.sidebox-content .post-list-date.none {
+	display: none;
+}
+
+/*-- ADS --*/
+
+.sidebox-content.view-ads {
+	text-align: center;
+}
+
+.sidebox-content.view-ads a {
+	text-align: center;
+	display: block;
+	margin-bottom: 5px;
+}
+
+.sidebox-content.view-ads a:last-child {
+	margin-bottom: 0;
+}
+
+/*-- Stat --*/
+
+.sidebox-content.stat {
+	position: relative;
+}
+
+.sidebox-content.stat .StatTitle {
+	cursor: default;
+	color: #aaa;
+	font-size: 13px;
+	border: none;
+	text-align: right;
+}
+
+.sidebox-content.stat .Value {
+	color: #A4CACF;
+	cursor: default;
+	float: left;
+	padding-left: 10px;
+	text-align: left;
+}
+
+/*-- Tag-Cloud --*/
+
+.sidebox-content.tag-cloud h3 {
+	margin: 0px;
+	font: normal 11px "tahoma", "Times New Roman", Times, Arial, serif;
+	display: inline-block;
+	*display: inline;
+	*margin: 2px;
+}
+
+.sidebox-content.tag-cloud span {
+	display: inline-block;
+	margin: 1px 0px 1px 0px;
+}
+
+.sidebox-content.tag-cloud a {
+	font: 14px/1.3em "yekan", "tahoma", "arial", "Times New Roman", Helvetica;
+	color: #888;
+	border: #ddd 1px solid;
+	background: #f9f9f9;
+	padding: 1px 7px 4px;
+	display: inline-block;
+	*display: inline-block;
+	margin-left: 1px;
+	/*margin: 2px 0px 2px 0px;*/
+}
+
+.sidebox-content.tag-cloud a:hover {
+	color: #fff;
+	border: #A4CACF 1px solid;
+	background: #A4CACF;
+}
+
+.sidebox-content.tag-cloud a.selected {
+	color: #fff;
+	border: #A4CACF 1px solid;
+	background: #A4CACF;
+}
+
+/*-- Categories --*/
+
+.sidebox-content.categories ul li {
+	padding: 0;
+	border: none;
+}
+
+.sidebox-content.categories li:hover {
+	background: none;
+}
+
+.sidebox-content ul li.selected a {
+	color: #0575a5;
+}
+
+.sidebox-content.categories ul li ul.subcats a {
+	padding-right: 10px;
+	padding-top: 1px;
+	display: inline-block;
+	background: url(//cdn.bayan.ir/blog/templates/52722/sub_ico.png) right no-repeat;
+}
+
+.sidebox-content.categories ul li a {
+	padding-bottom: 0;
+	padding-right: 20px;
+	display: table-cell;
+	*display: inline-block;
+	background: url(//cdn.bayan.ir/blog/templates/52722/folder_ico.png) right 8px no-repeat;
+}
+
+.sidebox-content.categories ul li h3 {
+	color: #0575a5;
+	margin: 0;
+	font: normal 14px "yekan", "tahoma", "arial", "Times New Roman", Helvetica;
+}
+
+.sidebox-content.categories ul li.selected {
+	background: none;
+}
+
+.sidebox-content.categories .subcats li.selected {
+	background: none;
+}
+
+.sidebox-content.categories .subcats {
+	margin-right: 14px;
+	margin-top: -3px;
+}
+
+.sidebox-content.categories ul .post-list-count {
+	cursor: default;
+	display: table-cell;
+	color: #aaa;
+}
+
+.sidebox-content.categories .subcats .post-list-count {
+	cursor: default;
+	display: inline-block;
+	color: #aaa;
+}
+
+.sidebox-content.categories .category_selected {
+	background: rgba(8, 146, 205, 0.2);
+	padding: 2px 5px 2px 5px;
+	display: block;
+	height: 31px;
+	max-height: auto;
+	*height: auto;
+}
+
+.sidebox-content.categories .category_selected a {
+	color: inherit;
+	cursor: default;
+}
+
+/*-- Footer --*/
+
+.footer {
+	color: #f4f4f4;
+	height: 50px;
+	background: #004850;
+}
+
+.footer a {
+	color: #f7d500;
+}
+
+.footer-wrp {
+	position: relative;
+	width: 90%;
+	margin: auto;
+}
+
+.footer .footer-copyright {
+	position: absolute;
+	right: 0;
+	top: 11px;
+	text-align: right;
+	direction: rtl;
+	cursor: default;
+	font: 13px yekan;
+}
+
+.footer .footer-icons {
+	position: absolute;
+	left: 0;
+	top: 15px;
+	text-align: left;
+}
+
+.footer .footer-icons a {
+	float: left;
+	margin-right: 3px;
+	width: 20px;
+	height: 20px;
+}
+
+.footer-ico-rss {
+	background: url(//cdn.bayan.ir/blog/templates/shared/icon/rss-icon-crystal.png) no-repeat;
+}
+
+.footer-ico-templates {
+	background: url(//cdn.bayan.ir/blog/templates/shared/icon/templates-icon-crystal.png) no-repeat;
+}
+
+.continue {
+	display: none;
+}
+
+.flw img.social {
+	width: 50px;
+	margin: 1px;
+	margin-top: 10px;
+	transition: all .25s ease-in;
+}
+
+.flw img.social:hover {
+	transform: scale(1.1);
+}
+
+.sidebox-content.flw {
+	direction: ltr;
+	padding-right: 2px;
+	padding-left: 3px;
+}
+
+.social-container {
+	display: grid;
+}
+
+abbr.up {
+	grid-row: 1;
+}
+
+abbr.down {
+	grid-row: 2;
+}
+
+.flw a:any-link {
+	text-decoration: none;
+}
+
+.flw abbr {
+	text-decoration: none;
+}
+
+@media only screen and (max-width:1000px) {
+	.content-wrp {
+		width: 95%;
+	}
+	.main-menu ul {
+		width: 95%;
+	}
+	.middle-posts {
+		display: none;
+	}
+}
+
+@media only screen and (max-width:600px) {
+	.main-menu ul {
+		width: 99%;
+	}
+	.content-wrp {
+		display: grid;
+		width: 100%;
+	}
+	.block-content {
+		grid-row: 1;
+		grid-column: 1;
+		width: 100%;
+	}
+	.block-sidebar {
+		grid-row: 2;
+		grid-column: 1;
+		width: 100%;
+		float: none;
+	}
+	.block-content .post {
+		margin-bottom: 10px;
+	}
+	.post-content-right {
+		width: 100%;
+		float: none;
+	}
+	.post-content-left {
+		float: none;
+		border: none;
+		margin: 0;
+		padding: 0;
+		width: 100%;
+	}
+	.block-sidebar .sidebox {
+		margin-bottom: 0px;
+	}
+	.formField2 .fldcontent {
+		margin-right: 0px;
+	}
+	.formField2 label {
+		width: max-content;
+	}
+	.bComForm .sendbutton.hasCheckbox {
+		margin-top: 0px;
+	}
+	element {
+		float: right;
+		margin-right: 33%;
+	}
+	.post-date-left {
+		float: right;
+		margin-right: 25%;
+	}
+	.post-content-left .post-readmore-left a {
+		background-image: none;
+		display: inline;
+		width: max-content;
+		height: max-content;
+		padding: 10px;
+		border-radius: 10px;
+	}
+	.post-readmore-left {
+		float: left;
+		margin-left: 10%;
+		margin-top: 15px;
+	}
+	/*.post-image-right{
+	float: none;
+	border: none;
+	margin: 0;
+	width: 100%;
+	}*/
+	.continue {
+		display: inline;
+		font-size: 25px;
+	}
+	/*.post-image-right img{
+	max-height:200px;
+	}*/
+	.sidebox .sidebox-title {
+		left: unset;
+		width: 100%;
+	}
+}

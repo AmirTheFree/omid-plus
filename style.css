@@ -328,11 +328,11 @@ a:active {
 
 .block-content .messages .messages-content {
 	padding: 5px 15px;
-	color: #aaa;
+	color: #000000;
 }
 
 .block-content .messages .messages-content h2 {
-	color: #888;
+	color: #000000;
 	font: 21px "yekan", "Times New Roman", Times, Arial, serif;
 	text-align: center;
 	cursor: default;
@@ -340,7 +340,7 @@ a:active {
 }
 
 .block-content .messages .messages-content h2 a.comment_count {
-	color: #aaa;
+	color: #000000;
 }
 
 .block-content .messages .messages-content h2 a.comment_count:hover {
@@ -696,7 +696,7 @@ img.rateimg, img.rateup, img.ratedn {
 /*-- add Comment --*/
 
 .comment-add-form {
-	color: #aaa;
+	color: #000000;
 	padding: 10px;
 	margin-bottom: 15px;
 	border: 1px solid #ddd;
@@ -706,9 +706,9 @@ img.rateimg, img.rateup, img.ratedn {
 }
 
 .comment-add-form input.sendbutton {
-	color: #A4CACF;
-	border: #A4CACF 1px solid;
-	background: #f8f8f8;
+	color: #000000;
+	border: #993f00 1px solid;
+	background: #1169c0;
 	padding: 0 30px 2px;
 	cursor: pointer;
 	font: 15px "yekan", "tahoma", "arial", "Times New Roman", Helvetica;
@@ -964,14 +964,14 @@ img.rateimg, img.rateup, img.ratedn {
 
 .sidebox-content.stat .StatTitle {
 	cursor: default;
-	color: #aaa;
+	color: #000000;
 	font-size: 13px;
 	border: none;
 	text-align: right;
 }
 
 .sidebox-content.stat .Value {
-	color: #A4CACF;
+	color: #000000;
 	cursor: default;
 	float: left;
 	padding-left: 10px;

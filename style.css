@@ -71,6 +71,10 @@ a:active {
 	outline: hidden;
 }
 
+a:anylink{
+	text-decoration: none;
+}
+
 /*-- Header --*/
 
 .header {
@@ -1183,6 +1187,10 @@ abbr.down {
 	text-decoration: none;
 }
 
+.icon{
+	display:none;
+}
+
 @media only screen and (max-width:1000px) {
 	.content-wrp {
 		width: 95%;
@@ -1196,8 +1204,36 @@ abbr.down {
 }
 
 @media only screen and (max-width:600px) {
-	.main-menu ul {
+	.main-menu ul{
 		width: 99%;
+	}
+	.main-menu ul li:not(:first-child){
+		display:none;
+	}
+	.main-menu ul li:last-child{
+		float: left;
+		display:block;
+		background:url(path/to/menu.png) no-repeat center;
+	}
+	.main-menu ul li:last-child a.icon{
+		width:41px;
+		height:41px;
+		padding:0;
+	}
+	.main-menu.responsive{
+		position:relative;
+		height:max-content;
+	}
+	.main-menu.responsive ul li:last-child a.icon{
+		position:absolute;
+		top:0;
+		left:0;
+		background:url(path/to/menu.png) no-repeat center;
+	}
+	.main-menu.responsive ul li{
+		float:none;
+		text-align:right;
+		display:block;
 	}
 	.content-wrp {
 		display: grid;

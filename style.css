@@ -1219,6 +1219,7 @@ abbr.down {
 		width:41px;
 		height:41px;
 		padding:0;
+		display: block;
 	}
 	.main-menu.responsive{
 		position:relative;

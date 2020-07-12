@@ -183,11 +183,6 @@ a:anylink{
 	background: #ef2f20;
 }
 
-.middle-posts .inline-readmore {
-	color: #ff4132;
-	padding-right: 7px;
-}
-
 .head-post .readmore {
 	padding: 2px 35px 5px;
 	font-size: 15px;
@@ -216,7 +211,7 @@ a:anylink{
 
 .middle-posts-wrp {
 	direction: rtl;
-	width: 75%;
+	width: 90%;
 	margin: 25px auto;
 }
 
@@ -241,7 +236,7 @@ a:anylink{
 .middle-posts ul li {
 	font-family: "yekan", "tahoma", "arial", "Times New Roman", Times, Arial, serif;
 	float: right;
-	width: 33%;
+	width: 31%;
 	margin-left: 30px;
 }
 

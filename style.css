@@ -1186,6 +1186,16 @@ abbr.down {
 	display:none;
 }
 
+.shareicons{
+	max-width:30px;
+	margin-left:3px;
+	transition: all .5s ease-in;
+}
+
+.shareicons:hover{
+	transform: rotateZ(360deg);
+}
+
 @media only screen and (max-width:1000px) {
 	.content-wrp {
 		width: 95%;

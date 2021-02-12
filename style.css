@@ -1320,4 +1320,10 @@ abbr.down {
 		left: unset;
 		width: 100%;
 	}
+	.block-content-view {
+		float: none;
+	}
+	.head-left h2 {
+		margin-top:-23px;
+	}
 }

@@ -1328,14 +1328,14 @@ abbr.down {
 	}
 }
 
-@media only screen and (min-width: 1281px) and (max-width: 1360) {
+@media only screen and (min-width: 1281px) and (max-width: 1440) {
 	html {
-		scale: 110%;
+		zoom: 115%;
 	}
 }
 
-@media only screen and (min-width: 1361px) {
+@media only screen and (min-width: 1441px) {
 	html {
-		scale: 125%;
+		zoom: 135%;
 	}
 }

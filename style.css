@@ -1327,3 +1327,15 @@ abbr.down {
 		margin-top:-23px;
 	}
 }
+
+@media only screen and (min-width: 1281px) and (max-width: 1360) {
+	html {
+		scale: 110%;
+	}
+}
+
+@media only screen and (min-width: 1361px) {
+	html {
+		scale: 125%;
+	}
+}

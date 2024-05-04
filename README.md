@@ -1,9 +1,6 @@
 # omid-plus
 
 ## Responsive &amp; improved version of Omid template in blog.ir
-
-بسم الله الرحمن الرحیم
-
 امید پلاس: ورژن ریسپانسیو شده و بهینه شده قالب امید بلاگ بیان
 
 **توجه:طبق گفته سایت بیان این قالب فقط اجازه استفاده در بلاگ های بیان را دارد**
@@ -16,7 +13,6 @@
 
 قالب امید پلاس نسخه ریسپانسیو شده قالب امید بیان برای دسکتاپ تبلت و موبایل است بعلاوه بخش آیکون شبکه های اجتماعی و یکسری بهینه سازی های دیگر
 
-In the name of Allah
 
 Please read english parts of license file before using this template:
 
